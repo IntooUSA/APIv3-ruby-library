@@ -264,7 +264,7 @@ module SibApiV3Sdk
     def build_request_url(path)
       # Add leading and trailing slashes to path
       path = "/#{path}".gsub(/\/+/, '/')
-      CGI.escape(@config.base_url + path)
+      CGI.unescape(@config.base_url + path)
     end
 
     # Builds the HTTP request body
