@@ -3,47 +3,52 @@ PATH
   specs:
     sib-api-v3-sdk (5.2.4)
       json (~> 2.1, >= 2.1.0)
+      rexml (~> 3.2, >= 3.2.7)
       typhoeus (~> 1.0, >= 1.0.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
     ZenTest (4.12.1)
-    addressable (2.8.2)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
-    autotest-fsevent (0.2.20)
+    autotest-fsevent (0.2.21)
       sys-uname
     autotest-growl (0.2.16)
     autotest-rails-pure (4.1.2)
-    crack (0.4.5)
+    bigdecimal (3.1.8)
+    crack (1.0.0)
+      bigdecimal
       rexml
-    diff-lcs (1.5.0)
+    diff-lcs (1.5.1)
     ethon (0.16.0)
       ffi (>= 1.15.0)
-    ffi (1.15.5)
-    hashdiff (1.0.1)
-    json (2.6.3)
-    public_suffix (5.0.1)
+    ffi (1.16.3)
+    hashdiff (1.1.0)
+    json (2.7.2)
+    public_suffix (5.0.5)
     rake (12.3.3)
-    rexml (3.2.5)
-    rspec (3.12.0)
-      rspec-core (~> 3.12.0)
-      rspec-expectations (~> 3.12.0)
-      rspec-mocks (~> 3.12.0)
-    rspec-core (3.12.1)
-      rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.2)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-mocks (3.12.5)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-support (3.12.0)
-    sys-uname (1.2.2)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    strscan (3.1.0)
+    sys-uname (1.2.3)
       ffi (~> 1.1)
-    typhoeus (1.4.0)
+    typhoeus (1.4.1)
       ethon (>= 0.9.0)
     vcr (3.0.3)
     webmock (1.24.6)
@@ -53,6 +58,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-darwin-23
 
 DEPENDENCIES
   autotest (~> 4.4, >= 4.4.6)

@@ -175,7 +175,7 @@ module SibApiV3Sdk
 
     def base_url
       url = "#{scheme}://#{[host, base_path].join('/').gsub(/\/+/, '/')}".sub(/\/+\z/, '')
-      CGI.escape(url)
+      CGI.unescape(url)
     end
 
     # Gets API key (with prefix if set).
