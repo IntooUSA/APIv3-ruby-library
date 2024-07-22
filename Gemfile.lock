@@ -30,8 +30,8 @@ GEM
     json (2.7.2)
     public_suffix (5.0.5)
     rake (12.3.3)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.2)
+      strscan
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -59,6 +59,7 @@ GEM
 PLATFORMS
   x86_64-darwin-21
   x86_64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   autotest (~> 4.4, >= 4.4.6)
@@ -72,4 +73,4 @@ DEPENDENCIES
   webmock (~> 1.24, >= 1.24.3)
 
 BUNDLED WITH
-   2.2.33
+   2.4.18
