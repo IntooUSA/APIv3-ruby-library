@@ -3,7 +3,7 @@ PATH
   specs:
     sib-api-v3-sdk (5.2.4)
       json (~> 2.1, >= 2.1.0)
-      rexml (~> 3.2, >= 3.2.7)
+      rexml (~> 3.4, >= 3.4.2)
       typhoeus (~> 1.0, >= 1.0.1)
 
 GEM
@@ -30,7 +30,7 @@ GEM
     json (2.7.2)
     public_suffix (5.0.5)
     rake (12.3.3)
-    rexml (3.3.9)
+    rexml (3.4.4)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -55,6 +55,7 @@ GEM
       hashdiff
 
 PLATFORMS
+  arm64-darwin-24
   x86_64-darwin-21
   x86_64-darwin-23
   x86_64-linux
